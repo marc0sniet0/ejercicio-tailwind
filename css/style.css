@@ -1,0 +1,30 @@
+
+@layer theme, base, components, utilities;
+
+
+/* Los selectores o estilos de etiquetas (tag), en "base" */
+
+@layer base{
+    body{
+
+    }
+
+    a{
+
+    }
+    
+    h1{
+        color: #2bff00;
+    }
+
+}
+
+/* Los selectores por clase (.class), en "components" */
+
+
+@layer components {
+    .botoncito{
+        padding: 3rem 5rem;
+    }
+    
+}
